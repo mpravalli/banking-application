@@ -16,7 +16,7 @@ public class BankApplication {
             throw new RuntimeException(e);
         }
         try {
-            conn= DriverManager.getConnection("jdbc:postgresql://localhost:5432/demo","postgres","Pravallika@501");
+            conn= DriverManager.getConnection("jdbc:postgresql://localhost:5432/demo","postgres","Password");
             System.out.println("connection successfully");
 
         } catch (SQLException e) {
